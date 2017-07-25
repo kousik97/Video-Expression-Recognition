@@ -1,6 +1,6 @@
 # Video-Expression-Recognition
-Python script to recognise emotions of all facial images in a video.
-Given a video, the script will recognise all facial images and each face is associated with an expression(anger, disgust, fear, sadness, surprise, joy and neutral).
+Python script to recognise emotion of all facial images in a video.
+Given a video, the script will recognise all facial images and associate each face with an expression(anger, disgust, fear, sadness, surprise, joy and neutral).
 
 ## Input-Output 
 ### Input
@@ -14,7 +14,7 @@ For a chosen unique cluster(face), graph of how its facial expression/emotion is
 * Dlib=19.4.99
 * OpenCV
 
-The codes are tested in container built from Ubuntu 14.04 CPU docker image downloaded from floyd-hub(link given below).
+The code is tested in a container built from Ubuntu 14.04 CPU docker image downloaded from floyd-hub(link given below).
 
 ## Demo 
 
@@ -24,6 +24,7 @@ The codes are tested in container built from Ubuntu 14.04 CPU docker image downl
 4. Follow runtime instructions 
 
 For a quick testing, use the video provided in example_videos directory.
+
 ## References
 * [Docker Image](https://github.com/floydhub/dl-docker)
 * Several ideas from [ICMI2015-ChaZhang](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/icmi2015_ChaZhang.pdf) are used to create the expression recognition model.
