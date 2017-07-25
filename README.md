@@ -20,9 +20,10 @@ The codes are tested in container built from Ubuntu 14.04 CPU docker image downl
 
 1. Download necessary weight files from [weight-files](https://drive.google.com/open?id=0ByDWS1KXv3sodERVQXVraUc0NkU)
 2. Extract all files downloaded from the above directory to the directory containing demo.py
-3. Call demo.py by running "python demo.py -v /path/to/video" 
+3. Call demo.py by running "python demo.py -v /full/path/to/video" 
 4. Follow runtime instructions 
 
+For a quick testing, use the video provided in example_videos directory.
 ## References
 * [Docker Image](https://github.com/floydhub/dl-docker)
 * Several ideas from [ICMI2015-ChaZhang](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/icmi2015_ChaZhang.pdf) are used to create the expression recognition model.
