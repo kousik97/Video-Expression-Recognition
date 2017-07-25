@@ -13,6 +13,7 @@ For a chosen unique cluster(face), graph of how its facial expression/emotion is
 * Tensorflow=1.2.1
 * Dlib=19.4.99
 * OpenCV
+* ffmpeg
 
 The code is tested in a container built from Ubuntu 14.04 CPU docker image downloaded from floyd-hub(link given below).
 
